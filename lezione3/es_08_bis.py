@@ -14,7 +14,8 @@ else:
     sup = num2
 
 conta = 0
+intervallo = range(inf, sup + 1)
 for n in lista:
-    if (n >= inf) and (n <= sup):
+    if n in intervallo:
         conta = conta + 1
 print("I numeri nella lista", lista, "\n sono presenti", conta, "volte nell'intervallo [", inf, ":", sup, "]")

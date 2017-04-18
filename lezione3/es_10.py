@@ -1,4 +1,4 @@
-# Esercizio n. 9 BIS
+# Esercizio n. 10
 # Trovare i divisori di un numero fornito in input.
 
 num = int(input("Introdurre il numero "))
