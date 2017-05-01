@@ -5,5 +5,5 @@ def trasla(x, y, z, n=2):
     return a, b, c
 
 
-x1, y1, z1 = trasla(3, 6, 9)
+x1, y1, z1 = trasla(z=3, x=6, y=9)
 print(x1, y1, z1)
